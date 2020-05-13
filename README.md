@@ -25,5 +25,8 @@ En caso de no funcionar instalar
 
 `sudo apt-get install -y xsel`
 
-En mac es obligatorio instalar zenity
+En mac es obligatorio instalar
+
 `brew install zenity`
+
+`brew install wget`
