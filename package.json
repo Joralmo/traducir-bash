@@ -1,0 +1,28 @@
+{
+  "name": "traducir-bash",
+  "version": "0.0.1",
+  "description": "Para traducir texto cuando copiado (linux)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joralmo/traducir-bash.git"
+  },
+  "keywords": [
+    "traducir",
+    "bash"
+  ],
+  "author": "JoralmoPro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joralmo/traducir-bash/issues"
+  },
+  "homepage": "https://github.com/Joralmo/traducir-bash#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}

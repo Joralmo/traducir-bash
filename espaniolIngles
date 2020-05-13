@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+text="$(xsel -o)"
+translate="$(wget -U "Mozilla/5.0" -qO - "http://localhost:3000/?a=en&texto=$(echo $text)")"
+echo -e "Texto original:" "$text"'\n' > /tmp/notification
+echo "Texto traducido:" "$translate" >> /tmp/notification
+echo $translate | xclip -selection c
+zenity --text-info --title="Traducción Español a ingles" --filename=/tmp/notification
