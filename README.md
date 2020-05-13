@@ -2,6 +2,8 @@
 
 Ubica los archivos espaniolIngles y inglesEspaniol donde guste en tu computador, luego crea un atajo de teclado teclado que apunte a cada uno de estos archivos.
 
+Antes debes darle permisos al archivo con `chmod +x archivo`
+
 Por ejemplo
 
 ![Español a ingles](./screenshots/espanolaingles.png)
@@ -22,3 +24,6 @@ En caso de no funcionar instalar
 `sudo apt-get install -y zenity`
 
 `sudo apt-get install -y xsel`
+
+En mac es obligatorio instalar zenity
+`brew install zenity`
