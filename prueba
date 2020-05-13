@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-text="[Y si consultas en guild_id siempre que se reciba un mensaje? sería solo una colsulta de mas]"
-translate="$(wget -U "Mozilla/5.0" -qO - "http://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=$(echo $text)")"
-echo "$translate" 
-#| grep -o '\".*\",\"' | grep -o '\[.*\]'
